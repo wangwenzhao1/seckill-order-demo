@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.alibaba.fastjson.JSONObject;
 import com.seckill.demo.demo.entry.OrderVO;
 import com.seckill.demo.demo.entry.ZOrder;
 import com.seckill.demo.demo.entry.ZOrderCriteria;
@@ -67,9 +68,9 @@ public class RedisTestResource {
 
         OrderVO orderVO = new OrderVO();
         System.out.println("xinx : " +request.getParameter("goods_id"));
-        //orderVO.setGoodsId(Integer.parseInt(request.getParameter("goods_id")));
-        //orderVO.setMemberId(Integer.parseInt(request.getParameter("member_id")));
-        //System.out.println("用户：" + JSONObject.toJSON(orderVO));
+        orderVO.setGoodsId(Integer.parseInt(request.getParameter("goods_id")));
+        orderVO.setMemberId(Integer.parseInt(request.getParameter("member_id")));
+        System.out.println("用户：" + JSONObject.toJSON(orderVO));
 
         //预减库存
         long stock = redisTool.decr("goods_id" + orderVO.getGoodsId().toString());

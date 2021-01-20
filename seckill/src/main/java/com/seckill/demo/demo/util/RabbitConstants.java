@@ -8,8 +8,6 @@ package com.seckill.demo.demo.util;
  */
 public class RabbitConstants {
 
-    public static final String SCF_MESSAGE = "scf_message_notice";
-
 
     /**
      * 订单消息实际消费交换机，队列,路由
