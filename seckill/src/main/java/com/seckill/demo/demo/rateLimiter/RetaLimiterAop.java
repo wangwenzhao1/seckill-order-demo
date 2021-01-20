@@ -23,10 +23,8 @@ import com.google.common.util.concurrent.RateLimiter;
 import com.seckill.demo.demo.util.DataResponse;
 
 /**
- * <p>
- * Description:
- * </p>
  *
+ * 限流的 注解的方法的捕获 及处理
  * @ClassName: RetaLimiterAop
  * @version: V1.0
  */

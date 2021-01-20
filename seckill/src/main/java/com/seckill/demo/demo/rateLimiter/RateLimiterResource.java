@@ -7,7 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.seckill.demo.demo.util.DataResponse;
 
-
+/**
+ * RateLimiter限流 测试
+ *<p>Description: </p>
+ * @ClassName: RateLimiterResource
+ * @author wangwenzhao
+ * @date Jan 20, 20213:29:43 PM
+ * @version: V1.0
+ */
 @RestController
 @RequestMapping(value = "/rateLimiter/v1")
 public class RateLimiterResource {

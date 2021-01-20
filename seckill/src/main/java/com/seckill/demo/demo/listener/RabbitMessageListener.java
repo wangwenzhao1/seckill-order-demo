@@ -21,7 +21,10 @@ import com.seckill.demo.demo.util.RabbitConstants;
 import com.seckill.demo.demo.util.TimeUtils;
 
 /**
+ * 监听 消费消息
+ * @ClassName: RabbitMessageListener
  * @author wangwenzhao
+ * @date Jan 20, 20213:30:59 PM
  * @version: V1.0
  */
 @Component

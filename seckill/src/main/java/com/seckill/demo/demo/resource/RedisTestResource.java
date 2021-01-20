@@ -24,10 +24,7 @@ import com.seckill.demo.demo.util.DataResponse;
 import com.seckill.demo.demo.util.RedisTool;
 
 /**
- * <p>
- * Description:
- * </p>
- *
+ * 测试 Controller
  * @ClassName: RedisTestResource
  * @author wangwenzhao
  * @date Sep 11, 202010:58:43 AM

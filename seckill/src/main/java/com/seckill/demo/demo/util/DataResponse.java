@@ -6,6 +6,13 @@ import java.util.List;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * 返回结构定义
+ * @ClassName: DataResponse
+ * @author wangwenzhao
+ * @date Jan 20, 20213:27:50 PM
+ * @version: V1.0
+ */
 public class DataResponse {
 
     private DataResponse() {

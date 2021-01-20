@@ -12,10 +12,7 @@ import com.seckill.demo.demo.util.DataResponse;
 import com.seckill.demo.demo.util.TimeUtils;
 
 /**
- * <p>
- * Description:
- * </p>
- *
+ * 订单处理
  * @ClassName: RabbitmqService
  * @author wangwenzhao
  * @date Sep 7, 20203:29:39 PM

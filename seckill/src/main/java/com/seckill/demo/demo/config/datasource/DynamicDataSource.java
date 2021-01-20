@@ -9,9 +9,10 @@ package com.seckill.demo.demo.config.datasource;
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 
 /**
- * @author Yan Jingchao
+ *<p>Description: </p>
  * @ClassName: DynamicDataSource
- * @date: 2017年03月10日
+ * @author wangwenzhao
+ * @date Jan 20, 20213:33:27 PM
  * @version: V1.0
  */
 public class DynamicDataSource extends AbstractRoutingDataSource {

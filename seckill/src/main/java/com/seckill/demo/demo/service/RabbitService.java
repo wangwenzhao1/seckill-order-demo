@@ -17,7 +17,11 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * @ClassName: RabbitUtil
+ * 发送到mq 业务
+ *<p>Description: </p>
+ * @ClassName: RabbitService
+ * @author wangwenzhao
+ * @date Jan 20, 20213:28:20 PM
  * @version: V1.0
  */
 @Component

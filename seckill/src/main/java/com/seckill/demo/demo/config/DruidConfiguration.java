@@ -1,7 +1,8 @@
 package com.seckill.demo.demo.config;
 
-import com.alibaba.druid.support.http.StatViewServlet;
-import com.alibaba.druid.support.http.WebStatFilter;
+import java.util.HashMap;
+import java.util.Map;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
@@ -9,11 +10,15 @@ import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import java.util.HashMap;
-import java.util.Map;
+import com.alibaba.druid.support.http.StatViewServlet;
+import com.alibaba.druid.support.http.WebStatFilter;
 
 /**
- * @author Yan Jingchao
+ * druid 连接池的配置
+ * @ClassName: DruidConfiguration
+ * @author wangwenzhao
+ * @date Jan 20, 20213:31:58 PM
+ * @version: V1.0
  */
 @Configuration
 public class DruidConfiguration {

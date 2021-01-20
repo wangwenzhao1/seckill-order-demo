@@ -14,14 +14,13 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
-
 /**
- * @author Yan Jingchao
+ *<p>Description: </p>
  * @ClassName: DataSourceAspect
- * @date: 2017年03月10日
+ * @author wangwenzhao
+ * @date Jan 20, 20213:33:16 PM
  * @version: V1.0
  */
-
 @Component
 @Aspect
 @Order(-1)

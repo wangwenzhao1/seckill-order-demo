@@ -32,9 +32,11 @@ import com.alibaba.druid.pool.DruidDataSource;
 import com.seckill.demo.demo.config.datasource.DynamicDataSource;
 
 /**
- * @author Yan Jingchao
- * @ClassName: DatasourceConfiguration
- * @date: 2017年03月08日
+ * 数据源配置
+ *<p>Description: </p>
+ * @ClassName: DataSourceConfiguration
+ * @author wangwenzhao
+ * @date Jan 20, 20213:32:19 PM
  * @version: V1.0
  */
 @Configuration
