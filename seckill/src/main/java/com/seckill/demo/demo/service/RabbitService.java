@@ -1,9 +1,3 @@
-/*
- * Copyright (c) 2017 All Rights Reserved, Jinxiudadi
- *
- * @Title: RabbitMQUtil.java
- */
-
 package com.seckill.demo.demo.service;
 
 import org.springframework.amqp.core.Message;

@@ -1,9 +1,3 @@
-/*
- * Copyright (c) 2017 All Rights Reserved, Jinxiudadi
- *
- * @Title: DatasourceConfiguration.java
- */
-
 package com.seckill.demo.demo.config;
 
 import java.util.HashMap;

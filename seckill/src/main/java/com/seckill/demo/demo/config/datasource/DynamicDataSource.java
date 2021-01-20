@@ -1,9 +1,3 @@
-/*
- * Copyright (c) 2017 All Rights Reserved, Jinxiudadi
- *
- * @Title: DatabaseContextHolder.java
- */
-
 package com.seckill.demo.demo.config.datasource;
 
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;

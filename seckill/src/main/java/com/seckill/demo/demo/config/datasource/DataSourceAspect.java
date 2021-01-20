@@ -1,9 +1,3 @@
-/*
- * Copyright (c) 2017 All Rights Reserved, Jinxiudadi
- *
- * @Title: DataSourceAspect.java
- */
-
 package com.seckill.demo.demo.config.datasource;
 
 import org.aspectj.lang.JoinPoint;
